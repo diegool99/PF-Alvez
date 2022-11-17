@@ -1,0 +1,48 @@
+//COLOR BACKGROUND HEADER
+$color-background-header: #000000;
+
+//IMAGEN FONDO HEADER
+$img-background-header: url("../assets/img/header.jpg");
+
+//COLOR BACKGROUND DEL MAIN
+$color-background-main: linear-gradient(
+  to bottom,
+  #000000,
+  #0b0a0a,
+  #141213,
+  #1a1819,
+  #1f1d20,
+  #232025,
+  #27232a,
+  #2b262f,
+  #2f2733,
+  #332937,
+  #372a3b,
+  #3c2b3e
+);
+//COLOR BACKGROUND FOOTER
+$color-background-footer: linear-gradient(
+  to bottom,
+  #3c2b3e,
+  #372a3b,
+  #332937,
+  #2f2733,
+  #2b262f,
+  #27232a,
+  #232025,
+  #1f1d20,
+  #1a1819,
+  #141213,
+  #0b0a0a,
+  #000000
+);
+
+
+//COLOR DE LETRA DEL HEADER PRIMARIO
+$color-font-header: #ffffff;
+
+//COLOR DE LETRA DEL MAIN PRIMARIO
+$color-font-main: #ffffff;
+
+//COLOR DE LETRA DEL FOOTER PRIMARIO
+$color-font-footer: #ffffff;

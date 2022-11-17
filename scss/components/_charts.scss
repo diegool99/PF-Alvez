@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+  /*xs - sm - md*/
+
+  .chart--img {
+    width: 12rem;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /*lg - xl*/
+  /*INVERSIONES*/
+
+  .chart--img {
+    width: 22rem;
+  }
+}

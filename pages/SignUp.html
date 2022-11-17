@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="container-fluid navbar-expand-lg">
+        <div class="row justify-content-between">
+          <button
+            class="col-1 navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img
+              class="nav__img"
+              src="../assets/logos/main-menu.png"
+              alt="menu-hamburguesa"
+            />
+          </button>
+          <figure class="col-1 logo__img">
+            <img
+              class="logo__img"
+              src="../assets/logos/logo1.png"
+              alt="logo1"
+            />
+          </figure>
+        </div>
+        <div
+          class="row navbar-collapse collapse justify-content-between"
+          id="navbarToggleExternalContent"
+        >
+          <ul class="navbar-nav col-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="Inversiones.html"
+                ><img
+                  class="nav__img px-1"
+                  src="../assets/logos/bar-chart.png"
+                  alt="bar-chart"
+                  srcset=""
+                /><span class="nav__span px-1">INVERSIONES</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Carrito.html"
+                ><img
+                  class="nav__img px-1"
+                  src="../assets/logos/carrito.png"
+                  alt="carrito"
+                /><span class="nav__span px-1">CARRITO</span></a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav col-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">INICIAR SESION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="">REGISTRARSE</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <form class="form register__form row" action="">
+        <section class="col-12 d-flex justify-content-center">
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              class="form-control form-control form-control-lg"
+              id="email-register"
+              placeholder="name@example.com"
+            />
+            <label for="email-register" class="text-dark">Email</label>
+          </div>
+        </section>
+        <section class="col-12 d-flex justify-content-center">
+          <div class="form-floating mb-3">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="user-register"
+              placeholder="name@example.com"
+            />
+            <label for="user-register" class="text-dark"
+              >Nombre de usuario</label
+            >
+          </div>
+        </section>
+        <section class="col-12 d-flex justify-content-center">
+          <div class="form-floating">
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              id="pass-register"
+              placeholder="Contraseña"
+            />
+            <label for="pass-register" class="text-dark">Contraseña</label>
+          </div>
+        </section>
+
+        <section class="col-12 d-flex justify-content-center">
+          <div class="form-floating">
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              id="pass2-register"
+              placeholder="Contraseña"
+            />
+            <label for="pass2-register" class="text-dark">Contraseña</label>
+          </div>
+        </section>
+        <div class="col-12 btn-login">
+          <button class="btn btn-success btn-animated">Registrarme</button>
+        </div>
+      </form>
+      <aside class="row p-3">
+        <p>Estas registrado?  <a href="./Login.html">Inicia sesion aqui</a></p>
+      </aside>
+    </main>
+
+    <footer class="container-fluid">
+      <figure class="row justify-content-center">
+        <img class="logo__img" src="../assets/logos/logo2.png" alt="logo2" />
+      </figure>
+      <div class="row">
+        <p>
+          Hasbu S.A. es supervisado por el Orden mundial de CRYPTO y NFT, por
+          más información acceda a www.CRYPTO.com (c) 2018 - Todos los derechos
+          reservados. Términos y condiciones de uso del sitio Infórmese sobre la
+          Garantía de Depósitos, en su institución de intermediación financiera,
+          en el sitio web www.copab.org.uy, o vía correo electrónico
+          infocopab@copab.org.uy.
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <figure class="col-1">
+          <img
+            class="img__icon"
+            src="../assets/logos/icons8-instagram-96.png"
+            alt="icon-instagram"
+          />
+        </figure>
+        <figure class="col-1">
+          <img
+            class="img__icon"
+            src="../assets/logos/icons8-youtube-play-96.png"
+            alt="icon-youtube"
+          />
+        </figure>
+        <figure class="col-1">
+          <img
+            class="img__icon"
+            src="../assets/logos/icons8-twitter-90.png"
+            alt="icon-twitter"
+          />
+        </figure>
+        <figure class="col-1">
+          <img
+            class="img__icon"
+            src="../assets/logos/icons8-twitch-100.png"
+            alt="icon-twitch"
+          />
+        </figure>
+      </div>
+    </footer>
+  </body>
+</html>

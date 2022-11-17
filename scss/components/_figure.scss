@@ -1,0 +1,56 @@
+.figure__hasbulla {
+  background-image: radial-gradient(
+    circle,
+    #000000,
+    #160f12,
+    #24181f,
+    #30212d,
+    #3c2b3e
+  );
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  overflow: hidden;
+}
+
+.figure__hasbulla--anim {
+  animation: morph 8s linear infinite;
+}
+
+@media screen and (max-width: 992px) {
+  /*xs - sm - md*/
+
+  .figure__hasbulla {
+    padding: 1rem;
+    width: 9rem;
+  }
+
+  /* IMAGENES INDEX */
+
+  .figure__img_hasbulla {
+    width: 70%;
+    border-radius: 5rem;
+  }
+
+  .wrap:nth-child(even) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /*lg - xl*/
+
+  .figure__hasbulla {
+    padding: 1rem;
+    width: 9rem;
+  }
+
+  /* IMAGENES INDEX */
+
+  .figure__img_hasbulla {
+    width: 70%;
+    border-radius: 10rem;
+  }
+
+  .figure__img_hasbulla--anim:hover {
+    animation: rotate-img 3s both;
+  }
+}

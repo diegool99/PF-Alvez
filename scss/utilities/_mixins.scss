@@ -1,0 +1,4 @@
+@mixin props-fonts($color, $align) {
+    color: $color;
+    text-align: $align;
+}

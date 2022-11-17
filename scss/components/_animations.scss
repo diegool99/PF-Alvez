@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px) {
+  /*xs - sm - md*/
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(2rem);
+      width: 60%;
+    }
+
+    50% {
+      width: 90%;
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+      width: 46%;
+    }
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /*lg - xl*/
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(2rem);
+      width: 40%;
+    }
+
+    50% {
+      width: 50%;
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+      width: 23%;
+    }
+  }
+}

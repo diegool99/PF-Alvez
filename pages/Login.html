@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="container-fluid navbar-expand-lg">
+        <div class="row justify-content-between">
+          <button
+            class="col-1 navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img
+              class="nav__img"
+              src="../assets/logos/main-menu.png"
+              alt="menu-hamburguesa"
+            />
+          </button>
+          <figure class="col-1 logo__img">
+            <img
+              class="logo__img"
+              src="../assets/logos/logo1.png"
+              alt="logo1"
+            />
+          </figure>
+        </div>
+        <div
+          class="row navbar-collapse collapse justify-content-between"
+          id="navbarToggleExternalContent"
+        >
+          <ul class="navbar-nav col-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="Inversiones.html"
+                ><img
+                  class="nav__img px-1"
+                  src="../assets/logos/bar-chart.png"
+                  alt="bar-chart"
+                  srcset=""
+                /><span class="nav__span px-1">INVERSIONES</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Carrito.html"
+                ><img
+                  class="nav__img px-1"
+                  src="../assets/logos/carrito.png"
+                  alt="carrito"
+                /><span class="nav__span px-1">CARRITO</span></a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav col-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="">INICIAR SESION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="SignUp.html">REGISTRARSE</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <form class="row form justify-content-center p-5" action="">
+        <section class="col-12 d-flex justify-content-center">
+          <div class="input-group input-group-sm input-group-lg mb-3">
+            <span class="input-group-text"
+              ><img src="https://img.icons8.com/metro/26/null/guest-male.png"
+            /></span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Usuario"
+              aria-label="Usuario"
+            />
+          </div>
+        </section>
+        <section class="col-12 d-flex justify-content-center">
+          <div class="input-group input-group-sm input-group-lg mb-3">
+            <span class="input-group-text"
+              ><img
+                src="https://img.icons8.com/material-outlined/24/null/visible--v1.png"
+            /></span>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Contraseña"
+              aria-label="Contraseña"
+            />
+          </div>
+        </section>
+        <div class="col-12 btn-login">
+          <button class="btn btn-success btn-animated">Iniciar sesion</button>
+        </div>
+      </form>
+      <aside class="row p-3">
+        <p>No estas registrado?</p>
+        <p>Queremos que seas parte de nuestra comunidad</p>
+        <a href="SignUp.html">Registrate aqui</a>
+      </aside>
+    </main>
+    <footer class="container-fluid">
+      <figure class="row justify-content-center">
+        <img class="logo__img" src="../assets/logos/logo2.png" alt="logo2" />
+      </figure>
+      <div class="row">
+        <p>
+          Hasbu S.A. es supervisado por el Orden mundial de CRYPTO y NFT, por
+          más información acceda a www.CRYPTO.com (c) 2018 - Todos los derechos
+          reservados. Términos y condiciones de uso del sitio Infórmese sobre la
+          Garantía de Depósitos, en su institución de intermediación financiera,
+          en el sitio web www.copab.org.uy, o vía correo electrónico
+          infocopab@copab.org.uy.
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <figure class="col-1">
+          <img
+            class="img__icon"
+            src="../assets/logos/icons8-instagram-96.png"
+            alt="icon-instagram"
+          />
+        </figure>
+        <figure class="col-1">
+          <img
+            class="img__icon"
+            src="../assets/logos/icons8-youtube-play-96.png"
+            alt="icon-youtube"
+          />
+        </figure>
+        <figure class="col-1">
+          <img
+            class="img__icon"
+            src="../assets/logos/icons8-twitter-90.png"
+            alt="icon-twitter"
+          />
+        </figure>
+        <figure class="col-1">
+          <img
+            class="img__icon"
+            src="../assets/logos/icons8-twitch-100.png"
+            alt="icon-twitch"
+          />
+        </figure>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

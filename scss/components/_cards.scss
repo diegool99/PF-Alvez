@@ -1,0 +1,31 @@
+.card--blur--shadow {
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+}
+
+.card__img_hasbulla {
+  width: 30%;
+  border-radius: 5rem;
+}
+
+.card__venta {
+  border-radius: 50% 50% 14% 14% / 50% 50% 22% 22%;
+}
+
+@media screen and (max-width: 992px) {
+  /*xs - sm - md*/
+
+  .card__venta {
+    width: 20rem;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /*lg - xl*/
+
+  .card__venta {
+    width: 25rem;
+  }
+}

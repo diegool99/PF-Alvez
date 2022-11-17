@@ -1,0 +1,44 @@
+/* ----------------- MAIN -----------------*/
+
+@import "../utilities/variables";
+
+main {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #0b0a0a,
+    #141213,
+    #1a1819,
+    #1f1d20,
+    #232025,
+    #27232a,
+    #2b262f,
+    #2f2733,
+    #332937,
+    #372a3b,
+    #3c2b3e
+  );
+  font-family: $font-main;
+  color: $color-font-main;
+  text-align: center;
+
+  section {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /*lg - xl*/
+  /*LOGIN*/
+
+  .input-group,
+  .btn-login button {
+    width: 30rem;
+  }
+
+  /*REGISTER*/
+
+  .register__form input {
+    width: 40rem;
+  }
+}

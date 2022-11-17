@@ -1,0 +1,30 @@
+/* ----------------- FOOTER -----------------*/
+
+@import "../utilities/variables";
+
+footer {
+  background-image: $color-background-footer;
+  font-family: $font-main;
+  color: $color-font-footer;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  footer .logo__img {
+    width: 10rem;
+  }
+
+  .img__icon {
+    width: 1rem;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  footer .logo__img {
+    width: 15rem;
+  }
+
+  .img__icon {
+    width: 3rem;
+  }
+}

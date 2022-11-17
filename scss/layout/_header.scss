@@ -1,0 +1,54 @@
+/* ----------------- HEADER -----------------*/
+
+@import "../utilities/variables";
+@import "../base/typo";
+
+header {
+  font-family: $font-main;
+  color: $color-font-header;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  /*xs - sm - md*/
+
+  header {
+    background-color: $color-background-header;
+  }
+
+  .logo__img {
+    width: 5rem;
+  }
+
+  li .nav__img {
+    display: none;
+  }
+
+  .nav__img {
+    width: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /*lg - xl - xxl*/
+
+  header {
+    background-image: $img-background-header;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+  }
+
+  .logo__img {
+    width: 20rem;
+  }
+
+  .nav__img {
+    width: 2rem;
+  }
+
+  li {
+    padding: 0.3rem;
+  }
+}
